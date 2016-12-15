@@ -1,5 +1,7 @@
 package com.gk.configuration;
 
+import javax.servlet.Filter;
+
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class Initializer extends AbstractAnnotationConfigDispatcherServletInitializer {
@@ -19,9 +21,9 @@ public class Initializer extends AbstractAnnotationConfigDispatcherServletInitia
 		return new String[]{"/"};
 	}
 	
-	/*@Override
+	@Override
     protected Filter[] getServletFilters() {
         Filter [] singleton = { new CORSFilter() };
         return singleton;
-    }*/
+    }
 }

@@ -1,15 +1,15 @@
 package com.gk.security;
-/**
- * @author gauravkhandave
+/*
+ @author gauravkhandave
  *
  */
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 
-import com.gk.configuration.Initializer;
+import com.gk.configuration.SpringConf;
 
 public class SecurityWebApplicationInitializer extends AbstractSecurityWebApplicationInitializer {
 
 	public SecurityWebApplicationInitializer() {
-		super(Initializer.class);
+		super(SpringConf.class);
 	}
 }
