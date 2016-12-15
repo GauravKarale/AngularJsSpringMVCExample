@@ -12,7 +12,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<springframework.version>4.3.1.RELEASE</springframework.version>
 		<jackson.version>2.7.5</jackson.version>
-		<m2eclipse.wtp.contextRoot>/AngularJsSpringMVCExample</m2eclipse.wtp.contextRoot>
 	</properties>
 	<dependencies>
 		<dependency>
