@@ -9,7 +9,4 @@ import com.gk.configuration.SpringConf;
 
 public class SecurityWebApplicationInitializer extends AbstractSecurityWebApplicationInitializer {
 
-	public SecurityWebApplicationInitializer() {
-		super(SpringConf.class);
-	}
 }
